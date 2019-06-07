@@ -1,4 +1,4 @@
-<h1>Login works</h1>
+
 
 <form >
     <div class="imgcontainer">
@@ -12,13 +12,17 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
   
-      <button type="submit">Login</button>
-
-      
+<!--<button type="submit" routerLink="/Customer">Login</button>-->
+      <button type="submit"> <a routerLink="/customer">Login</a></button>
     </div>
   
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a routerLink="/sign-up">password?</a></span>
+      <!---<div class="container" style="background-color:#f1f1f1">
+       <span class="psw"> <a routerLink="/Customer">Login</a></span>
+     </div>-->
+      
+      
     </div>
   </form>
